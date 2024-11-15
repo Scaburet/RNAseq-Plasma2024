@@ -1,5 +1,5 @@
 name: meg_m2_rnaseq_bash
-# novel environnement created in 2022
+# novel environment created in 2024 (from template meg_m2_rnaseq_bash) for the novel RNAseq pipeline on mouse data (adapted from the CEA RNAseq course)
 
 # channels priority
 # see https://bioconda.github.io/
@@ -28,7 +28,7 @@ dependencies:
   # For the M2 course:
   - fastqc
   - fastp
-  - bowtie
+  - fastq-screen
   - samtools
   - multiqc
   - qualimap
